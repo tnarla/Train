@@ -7,6 +7,8 @@ Project("{E41273F4-3AF5-0471-4D85-465294F1F369}") = "Train", "Assembly-CSharp.cs
 EndProject
 Project("{E41273F4-3AF5-0471-4D85-465294F1F369}") = "Train", "Assembly-CSharp-Editor.csproj", "{EB8554D0-77AD-2EC8-D984-64FED368BD4D}"
 EndProject
+Project("{E41273F4-3AF5-0471-4D85-465294F1F369}") = "Train", "Assembly-UnityScript.unityproj", "{389418BD-4FAD-2736-5CDB-43B19857FD37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{EB8554D0-77AD-2EC8-D984-64FED368BD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB8554D0-77AD-2EC8-D984-64FED368BD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB8554D0-77AD-2EC8-D984-64FED368BD4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389418BD-4FAD-2736-5CDB-43B19857FD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389418BD-4FAD-2736-5CDB-43B19857FD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389418BD-4FAD-2736-5CDB-43B19857FD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389418BD-4FAD-2736-5CDB-43B19857FD37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-									GlobalSection(MonoDevelopProperties) = preSolution
+																				GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
