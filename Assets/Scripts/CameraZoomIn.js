@@ -9,8 +9,7 @@ var cam : Camera;
 
 	// Time taken for the transition.
 	var duration = 6.0;
-	
-	
+
 	private var startTime: float;
 	
 	
@@ -26,11 +25,12 @@ var cam : Camera;
 function Update (){
    var t = (Time.time - startTime) / duration;
    if (Time.timeSinceLevelLoad > waitTime){
-     if(cam.orthographicSize > 1.8 && cam.orthographicSize <= 5.1){
-        cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, zoom, Time.deltaTime * smooth);
+     if(cam.orthographicSize > 3.6 && cam.orthographicSize <= 12){
+        cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, zoom, Time.fixedDeltaTime * smooth);
+        cam.transform.localPosition.y = Mathf.Lerp(cam.transform.localPosition.y, 2, Time.fixedDeltaTime * smooth);
         //cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, zoom, t);
        
-        if(cam.orthographicSize < 1.8) { 
+        if(cam.orthographicSize < 3.6) { 
 	        train_outside.SetActive(false);
         }
         
