@@ -2,6 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GirlCharacterController.js">
     <Files>
+      <File FileName="Assets/Scripts/GirlCharacterController.js" Line="11" Column="22" />
       <File FileName="Assets/Scripts/AutoScrollTextureOffset.cs" Line="1" Column="1" />
       <File FileName="Assets/Standard Assets/2D/Scripts/CameraFollow.cs" Line="1" Column="1" />
       <File FileName="Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs" Line="1" Column="1" />
@@ -9,7 +10,7 @@
       <File FileName="Assets/Standard Assets/2D/Scripts/Restarter.cs" Line="1" Column="1" />
       <File FileName="Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/CameraZoomIn.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GirlCharacterController.js" Line="42" Column="31" />
+      <File FileName="Assets/Scripts/InteractWithTriangle.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
