@@ -3,8 +3,12 @@
 var character : Rigidbody2D; 
 var pointClicked : Vector2; 
 var facingRight = true;
-var velocity : float = 2f; 
+var velocity : float = 0.03f; 
 var target : Vector2;
+var startTime : float;
+var placeToGo : float; 
+
+var anim : Animator; 
 
 function FindTargetPoint() : Vector2 {
 	pointClicked = Input.mousePosition;
@@ -12,19 +16,37 @@ function FindTargetPoint() : Vector2 {
 }
 
 function Start () {
-	
+	anim = GetComponent("Animator"); 
+	startTime = Time.time; 
+	placeToGo = transform.position.x;
 }
 
-function FixedUpdate () {
-
+function Update () {
+	if (placeToGo > transform.position.x + 0.03){
+		if(!facingRight) { Flip();}
+		anim.SetFloat("Speed", 5);
+		transform.position.x += 0.03;}
+	else if (placeToGo < transform.position.x - 0.03){
+		if(facingRight) { Flip();}
+		anim.SetFloat("Speed", 5);
+		transform.position.x -= 0.03;
+		}
+	else { anim.SetFloat("Speed", -1); }
+	
+	
 	if (Input.GetMouseButtonDown(0)){ 
-		MoveTowardsTarget();	
-	}
+		var pixVal = Input.mousePosition;
+		var gameX = Camera.main.ScreenToWorldPoint(pixVal).x;
+		placeToGo = gameX;
+	
+	} 
+	
 }
 
 // change from weird Pixel sizing to -5 to 5 grid system
 function changeFromPixel(pixelX : float) : float {
-	pixelX = pixelX / 104; 
+	
+	pixelX = pixelX / Screen.width; 
 	return pixelX - 5; 
 }
 
@@ -33,29 +55,4 @@ function Flip() {
 	var theScale : Vector2 = transform.localScale;
 	theScale.x *= -1; 
 	transform.localScale = theScale;
-}
-
-function MoveTowardsTarget() {
-	var characterPosX = character.position.x;
-	
-	
-	var xTargetPosition = changeFromPixel(FindTargetPoint().x);
-	
-	// Check if the mouse and the character are not in the same position. Then
-	// move the character until they are the same. 
-    if(xTargetPosition - character.position.x != 0.6) {
-    	//character.AddForce(target, ForceMode2D.Force);
-    	if(xTargetPosition > characterPosX) {
-    		if(!facingRight) { Flip();}
-    		//velocity = 2f * (characterPosX - xTargetPosition) / 0.48988 ; 
-   			character.velocity = Vector2(2,0);
-   			
-   			//Mathf.Lerp(characterPosX, xTargetPosition , Time.fixedDeltaTime);
-    	}
-    	else if (xTargetPosition < characterPosX) {
-    		if(facingRight) { Flip();}
-    		character.velocity = Vector2(-2,0);
-    	}
-    }
-   
 }

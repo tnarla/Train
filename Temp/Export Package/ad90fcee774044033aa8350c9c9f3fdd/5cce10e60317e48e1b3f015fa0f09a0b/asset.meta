@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 5cce10e60317e48e1b3f015fa0f09a0b
+timeCreated: 1431334206
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: turn-0001
+    21300002: turn-0002
+    21300004: turn-0003
+    21300006: turn-0004
+    21300008: turn-0005
+    21300010: turn-0006
+    21300012: turn-0007
+    21300014: turn-0008
+    21300016: turn-0009
+    21300018: turn-0010
+    21300020: turn-0011
+    21300022: turn-0012
+    21300024: walk-0001
+    21300026: walk-0002
+    21300028: walk-0003
+    21300030: walk-0004
+    21300032: walk-0005
+    21300034: walk-0006
+    21300036: walk-0007
+    21300038: walk-0008
+    21300040: walk-0009
+    21300042: walk-0010
+    21300044: walk-0011
+    21300046: walk-0012
+    21300048: walk-0013
+    21300050: walk-0014
+    21300052: walk-0015
+    21300054: walk-0016
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: turn-0001
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 109
+        width: 165
+        height: 300
+      alignment: 9
+      pivot: {x: .5, y: -.0566666685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0002
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 109
+        width: 165
+        height: 300
+      alignment: 9
+      pivot: {x: .5, y: -.0566666685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0003
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 100
+        width: 139
+        height: 304
+      alignment: 9
+      pivot: {x: .464028776, y: -.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0004
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 100
+        width: 139
+        height: 304
+      alignment: 9
+      pivot: {x: .464028776, y: -.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0005
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 393
+        width: 124
+        height: 310
+      alignment: 9
+      pivot: {x: .584677398, y: -.0580645166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0006
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 393
+        width: 124
+        height: 310
+      alignment: 9
+      pivot: {x: .584677398, y: -.0580645166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0007
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 75
+        width: 127
+        height: 312
+      alignment: 9
+      pivot: {x: .759842515, y: -.051282052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0008
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 75
+        width: 127
+        height: 312
+      alignment: 9
+      pivot: {x: .759842515, y: -.051282052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0009
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 421
+        width: 127
+        height: 298
+      alignment: 9
+      pivot: {x: .720472455, y: -.0570469797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0010
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 421
+        width: 127
+        height: 298
+      alignment: 9
+      pivot: {x: .720472455, y: -.0570469797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0011
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 717
+        width: 149
+        height: 305
+      alignment: 9
+      pivot: {x: .687919438, y: -.0590163916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn-0012
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 717
+        width: 149
+        height: 305
+      alignment: 9
+      pivot: {x: .687919438, y: -.0590163916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0001
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 389
+        width: 156
+        height: 314
+      alignment: 9
+      pivot: {x: .496794879, y: -.0191082805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0002
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 389
+        width: 156
+        height: 314
+      alignment: 9
+      pivot: {x: .496794879, y: -.0191082805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0003
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 721
+        width: 166
+        height: 301
+      alignment: 9
+      pivot: {x: .557228923, y: -.0465116277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0004
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 721
+        width: 166
+        height: 301
+      alignment: 9
+      pivot: {x: .557228923, y: -.0465116277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0005
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 406
+        width: 150
+        height: 305
+      alignment: 9
+      pivot: {x: .443333328, y: -.0524590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0006
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 406
+        width: 150
+        height: 305
+      alignment: 9
+      pivot: {x: .443333328, y: -.0524590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0007
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 411
+        width: 139
+        height: 304
+      alignment: 9
+      pivot: {x: .363309354, y: -.0592105277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0008
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 411
+        width: 139
+        height: 304
+      alignment: 9
+      pivot: {x: .363309354, y: -.0592105277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0009
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 713
+        width: 137
+        height: 309
+      alignment: 9
+      pivot: {x: .434306562, y: -.0355987065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0010
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 713
+        width: 137
+        height: 309
+      alignment: 9
+      pivot: {x: .434306562, y: -.0355987065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0011
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 82
+        width: 133
+        height: 309
+      alignment: 9
+      pivot: {x: .477443606, y: -.0194174759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0012
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 82
+        width: 133
+        height: 309
+      alignment: 9
+      pivot: {x: .477443606, y: -.0194174759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0013
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 75
+        width: 144
+        height: 312
+      alignment: 9
+      pivot: {x: .420138896, y: -.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0014
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 75
+        width: 144
+        height: 312
+      alignment: 9
+      pivot: {x: .420138896, y: -.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0015
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 705
+        width: 159
+        height: 317
+      alignment: 9
+      pivot: {x: .44339624, y: -.0157728698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk-0016
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 705
+        width: 159
+        height: 317
+      alignment: 9
+      pivot: {x: .44339624, y: -.0157728698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
