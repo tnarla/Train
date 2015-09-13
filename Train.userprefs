@@ -1,11 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GirlCharacterController.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TalkBehavior.js">
     <Files>
-      <File FileName="Assets/Scripts/CameraZoomIn.js" Line="29" Column="101" />
-      <File FileName="Assets/Scripts/GirlCharacterController.js" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/TalkBehavior.js" Line="20" Column="3" />
+      <File FileName="Assets/Scripts/CameraZoomIn.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GirlCharacterController.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/AutoScrollTextureOffset.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/InteractWithTriangle.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/InteractWithTriangle.cs" Line="20" Column="3" />
+      <File FileName="Assets/DialogText.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

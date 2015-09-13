@@ -10,10 +10,6 @@ var placeToGo : float;
 
 var anim : Animator; 
 
-function FindTargetPoint() : Vector2 {
-	pointClicked = Input.mousePosition;
-	return Vector2(pointClicked.x, pointClicked.y);
-}
 
 function Start () {
 	anim = GetComponent("Animator"); 
@@ -41,13 +37,6 @@ function Update () {
 	
 	} 
 	
-}
-
-// change from weird Pixel sizing to -5 to 5 grid system
-function changeFromPixel(pixelX : float) : float {
-	
-	pixelX = pixelX / Screen.width; 
-	return pixelX - 5; 
 }
 
 function Flip() {
